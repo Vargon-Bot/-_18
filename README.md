@@ -16,13 +16,3 @@
 ✅ Загрузка и отображение изображений (с заглушкой)  
 ✅ Админ-панель: таблица пользователей, смена ролей, базовая статистика  
 ✅ Кнопка «Выйти» с очисткой сессии  
-
----
-
-## 🗄 Настройка базы данных
-1. Убедитесь, что установлен **SQL Server** или **LocalDB**.
-2. Откройте `App.config` и проверьте строку подключения:
-   ```xml
-   <add name="EventOrganizerDBEntities1" 
-        connectionString="data source=.;initial catalog=EventOrganizerDB;integrated security=True;trustservercertificate=True;MultipleActiveResultSets=True" 
-        providerName="System.Data.SqlClient" />
